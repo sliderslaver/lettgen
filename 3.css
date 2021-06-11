@@ -1,0 +1,63 @@
+.testo1{
+    font-size: xx-large;
+    color:black;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    animation: testo1 1s;
+    position: absolute;
+}
+@keyframes testo1 {
+    from{margin-top: 200px}
+    to{margin-top: 28px}
+    
+}
+#msg{
+    color: black;
+    font-size: large;
+    font-family: fantasy;
+}
+.pp{
+    color: orange;
+    font-family: fantasy;
+    font-size: larger;
+}
+button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    border-radius: 50%;
+    font-family: fantasy;
+    font-size: large;
+    opacity: 60%;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.due{
+    color: white;
+    animation: transazione  3s;
+}
+@keyframes transazione {
+    from{opacity: 0%;}
+    to{opacity:100;}
+    
+}
+.testo{
+    color: black;
+    font-size: xxx-large;
+    margin-left: 37%;
+    animation: testo 1s;
+}
+@keyframes testo {
+    from {margin-left: 0%;}
+    to {margin-left: 37%;}
+}
+.line{
+    color: white;
+    animation: transazione1  10s;
+}
+@keyframes transazione1 {
+    from{opacity: 0%;}
+    to{opacity:100;}
+    
+}
